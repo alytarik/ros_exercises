@@ -56,7 +56,7 @@ catkin_package(
  #INCLUDE_DIRS include
  LIBRARIES time_pubsub
  CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
- DEPENDS system_lib
+ #DEPENDS system_lib
 )
 
 ###########
@@ -67,10 +67,10 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(date2day_server src/date2day_server.cpp)
-target_link_libraries(date2day_server ${catkin_LIBRARIES})
+add_executable(date_to_day_server src/date_to_day_server.cpp)
+target_link_libraries(date_to_day_server ${catkin_LIBRARIES})
 
 
-add_executable(date2day_client src/date2day_client.cpp)
-target_link_libraries(date2day_client ${catkin_LIBRARIES})
+add_executable(date_to_day_client src/date_to_day_client.cpp)
+target_link_libraries(date_to_day_client ${catkin_LIBRARIES})
 

@@ -57,7 +57,7 @@ catkin_package(
  #INCLUDE_DIRS include
  LIBRARIES time_pubsub
  CATKIN_DEPENDS roscpp rospy std_msgs 
- DEPENDS system_lib
+ #DEPENDS system_lib
 )
 
 ###########
