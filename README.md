@@ -15,3 +15,4 @@ Using ROS and OpenCV for tracking an object of given color.
 
 ### 04_lidar_lidar
 Using a bag file, rviz and gazebo for map creation.
+![example terminal output](https://media3.giphy.com/media/Cfah8IozHgdj2nb4B1/giphy.gif)
