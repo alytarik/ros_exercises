@@ -55,8 +55,8 @@ generate_messages(
 ###################################
 catkin_package(
  #INCLUDE_DIRS include
- LIBRARIES time_pubsub
- CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
+ #LIBRARIES time_pubsub
+ #CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
  #DEPENDS system_lib
 )
 
@@ -70,8 +70,6 @@ include_directories(
 
 add_executable(time_publisher src/time_publisher.cpp)
 target_link_libraries(time_publisher ${catkin_LIBRARIES})
-# add_dependencies(time_publisher beginner_tutorials_generate_messages_cpp)
 
 add_executable(time_subscriber src/time_subscriber.cpp)
 target_link_libraries(time_subscriber ${catkin_LIBRARIES})
-# add_dependencies(time_publisher beginner_tutorials_generate_messages_cpp)
