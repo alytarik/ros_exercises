@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_ball_tracking</name>
+  <name>opencv_ball_tracking</name>
   <version>0.0.0</version>
   <description>The ros_ball_tracking package</description>
 
